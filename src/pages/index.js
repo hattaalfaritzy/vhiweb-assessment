@@ -42,13 +42,13 @@ export default function LoginPage() {
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col w-full lg:w-1/4 space-y-4">
         <InputText
           register={register('email')}
-          placeholder="email"
+          placeholder="Input your email"
           errors={formState.errors}
           label="Email"
         />
         <InputPassword
           register={register('password')}
-          placeholder="password"
+          placeholder="Input your password"
           errors={formState.errors}
           label="Password"
         />
