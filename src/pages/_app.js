@@ -1,6 +1,6 @@
 import App from 'next/app';
 import NextNProgress from 'nextjs-progressbar';
-import Core from '../wrappers/_core';
+import Core from '../components/wrappers/_core';
 import { getDecodedJWT, httpAuthCheck } from '../utils/auth';
 import { disableBrowserConsoleLog } from '../utils/console';
 import { publicRuntimeConfig } from '../config/env';

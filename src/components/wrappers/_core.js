@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { QueryClient, QueryClientProvider } from 'react-query';
-import MultiProvider from '../config/multi-provider';
-import Provider from '../contexts';
+import MultiProvider from '../../config/multi-provider';
+import Provider from '../../contexts';
 
 const queryClient = new QueryClient({
   defaultOptions: {
