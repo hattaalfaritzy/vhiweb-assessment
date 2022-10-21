@@ -15,7 +15,7 @@ export default function Sidebar() {
         <div className="flex flex-col w-full">
           <div className="flex justify-between items-center mb-4">
             <button onClick={closeSidebar} type="button" className="flex flex-row justify-start items-end space-x-1">
-              <Logo />
+              <Logo withHref={false} />
               <span className="text-sm leading-none">Assessment Test</span>
             </button>
             <MdClose onClick={toggleSidebar} className="text-black hover:text-primary on-hover text-2xl cursor-pointer" />
