@@ -9,7 +9,7 @@ export default function Logo({ className, withHref = true }) {
       <ImageWithFallback src="/images/logo-vhiweb.svg" className={clsx('cursor-pointer', className)} />
     </Link>
   ) : (
-    <ImageWithFallback src="/images/logo-vhiweb.svg" className={clsx('cursor-pointer', className)} />
+    <ImageWithFallback src="/images/logo-vhiweb.svg" className={clsx(className)} />
   );
 }
 

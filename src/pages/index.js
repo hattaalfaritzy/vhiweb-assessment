@@ -36,7 +36,7 @@ export default function LoginPage() {
   return (
     <div className="flex flex-col justify-center items-center h-screen space-y-4 px-4 lg:px-0">
       <div className="flex flex-row justify-start items-end space-x-1">
-        <Logo />
+        <Logo withHref={false} />
         <span className="text-sm leading-none">Assessment Test</span>
       </div>
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col w-full lg:w-1/4 space-y-4">
