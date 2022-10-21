@@ -31,7 +31,7 @@ Create a simple single page application (SPA) and displaying data from a public 
 │   │   ├── ⚛️ sections/       Components which create a block/section of a page
 │   │   └── ⚛️ wrappers/       Components which has no UI, only for functionality (e.g. context-provider)
 │   ├── 📂 config/
-│   ├── 📂 constant/
+│   ├── 📂 constant/           Constant data
 │   ├── 📂 context/            Contexts stores
 │   ├── ⚛️ hooks/              Custom hooks
 │   ├── ⚛️ pages/              Next.js page components
@@ -50,6 +50,11 @@ Create a simple single page application (SPA) and displaying data from a public 
 ├── package.json
 ├── postcss.config.js           PostCSS configuration
 └── tailwind.config.js          Tailwind configuration
+
+Notes:
+📂: Folder
+⚛️: React-related folder
+```
 
 ## Tools
 
