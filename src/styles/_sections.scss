@@ -1,0 +1,7 @@
+.hide-mobile {
+    @apply hidden md:flex;
+}
+
+.hide-website {
+    @apply flex md:hidden;
+}

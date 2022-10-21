@@ -1,0 +1,36 @@
+input:focus {
+    outline: none !important;
+}
+
+// CONTAINER FORM INPUT ANIMATION
+.form-control-title-animation {
+  @apply p-2.5 px-0 w-full text-black text-xxs md:text-xs bg-transparent;
+
+  &:read-only {
+    @apply focus:ring-0 focus:border-primary;
+  }
+}
+
+// LABEL FORM
+.form-label {
+  @apply block font-semibold text-xs text-black;
+}
+
+// CONTAINER FORM INPUT DEFAULT
+.form-control-default {
+  @apply relative flex justify-between items-center w-full text-black text-xxs md:text-xs bg-transparent;
+
+  &:read-only {
+    @apply focus:ring-0 focus:border-black;
+  }
+}
+
+// TEXT INPUT DEFAULT
+.input-form-default {
+  @apply p-2.5 w-full cursor-pointer;
+}
+
+// FORM ERROR
+.form-error {
+  @apply border-danger focus:border-danger focus:ring-0
+}
