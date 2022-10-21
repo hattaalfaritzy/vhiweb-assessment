@@ -4,7 +4,7 @@ import { UserContext } from '../contexts/index';
 
 export default function useUser() {
   const {
-    getDataUser, user, setUser, setFilterUser, filterUser, getDetailUser, detailUser,
+    getDataUser, user, setUser, setFilterUser, filterUser, getDetailUser, detailUser, loading,
   } = useContext(UserContext);
 
   return {
@@ -15,5 +15,6 @@ export default function useUser() {
     detailUser,
     setUser,
     setFilterUser,
+    loading,
   };
 }
