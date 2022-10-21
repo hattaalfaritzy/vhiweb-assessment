@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-constructed-context-values */
 import React, { useCallback, createContext, useState } from 'react';
 import { getUser, getIdUser } from '../api/user';
 

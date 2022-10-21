@@ -38,6 +38,9 @@
 				"peerDependencies": false,
 				"bundledDependencies": false
 			}
-		]
+		],
+		"max-len": ["none", {
+			"code": 120
+		}],
 	}
 }

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-constructed-context-values */
 import { useRouter } from 'next/router';
 import PropTypes from 'prop-types';
 import { createContext, useEffect, useState } from 'react';
